@@ -1,2 +1,2 @@
 # django_blog
-Blog project 
+Blog project. You can see at this url ->
