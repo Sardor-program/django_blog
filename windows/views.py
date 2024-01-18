@@ -2,12 +2,33 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def home(request):
-    return HttpResponse('<h1>Home page</h1>')
+    return render(request, 'home.html')
+
 
 
 def about(request):
-    return HttpResponse('<h1>About page</h1>')
+    return render(request, 'about.html')
 
 
-def window(request):
-    return HttpResponse('<h1>Window page</h1>')
+def farm(request):
+    return render(request, 'farm.html')
+
+
+def garden(request):
+    return render(request, 'garden.html')
+
+
+def dairy_product(request):
+    return render(request, 'dairy.html')
+
+
+def vegetables(request):
+    return render(request, 'vegetable.html')
+
+
+def fruit(request):
+    return render(request, 'fruit.html')
+
+
+
+
